@@ -1,0 +1,2 @@
+DEBUG = False
+WEBCAM_QUARITY = 95
