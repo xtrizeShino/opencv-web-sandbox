@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+    <title>Live View</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}" />
+</head>
+<body>
+    <h1>Streaming</h1>
+    <!-- Preview Streaming Contents -->
+    <img src="{{ url_for('video_feed') }}" />
+    <!-- url_for generate URL for Python function -->
+</body>
